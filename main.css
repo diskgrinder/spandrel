@@ -1,0 +1,76 @@
+body, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #444;
+	color: #333;
+	font-family: Helvetica, sans-serif;
+}
+#buttonHolder{
+	position:absolute;
+	z-index:1000;
+	top:40px;
+	background-color:gray;
+	padding:10px;
+
+}
+#sidepage{
+
+	position:absolute;
+	background: url("bg.png") repeat-y;
+	background-color:white;
+	border:1px solid lightgray;
+	width: 1196px;
+	height: 842px;
+	left: -200px;
+	top:19px;
+
+
+}
+a:hover{font-color:red;}
+#book {
+	background-color:white;
+	position: absolute;
+	width: 1220px;
+	height: 862px;
+	left: -200px;
+	top:135px;
+	margin-top: -125px;
+}
+
+
+#pages section {
+
+	background-color:white;
+	display: block;
+	width: 600px;
+	height: 842px;
+	position: absolute;
+	left: 600px;
+	top: 10px;
+	overflow: hidden;
+}
+	#pages section>div {
+		display: block;
+		width: 600px;
+		height: 842px;
+		position: absolute;
+	
+
+	}
+	#pages section p,
+	#pages section h2 {
+		padding: 3px 35px;
+		line-height: 1.4em;
+		text-align: justify;
+	}
+	#pages section h2{
+		margin: 15px 0 10px;
+	}
+
+#pageflip-canvas {
+	position: absolute;
+	z-index: 100;
+}
